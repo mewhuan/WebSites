@@ -13,8 +13,8 @@ In negative bar:<br/>
 5. Account: To account page.<br/>
 <body>
 <p>
-<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub1.gif" width="544" height="306"></br>
 In the index page shows upcoming concerts, active users and top artists with their concerts. 
+<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub1.gif" width="544" height="306"></br>
 </p>
 <p>
 <img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub2.gif" width="544" height="306"></br>
