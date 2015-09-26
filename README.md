@@ -1,9 +1,9 @@
 # WebSites
+## Cclub | Web Application
+### Introduction
 <html>
-<h2>Cclub | Web Application</h2>
-## Introduction
 It's a social network website for users to share concert information. Users can sign up as normal users or artists. <br/>
-## In nevigate bar
+### In nevigate bar
 1. To index page.<br/>
 2. What's new: show news in three sides<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Artist liked: show news from the artist he/she followed.<br/>
@@ -13,7 +13,7 @@ It's a social network website for users to share concert information. Users can 
 4. My List: show his/her recommend list.<br/>
 5. Account: To account page.<br/>
 
-## Procedure
+### Procedure
 <body>
 <p>
 In the index page shows upcoming concerts, active users and top artists with their concerts. </br>
@@ -43,7 +43,7 @@ In my activity page shows the concerts he/she posted, the other users he/she fol
 Log out.</br>
 <img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub7.gif" width="544" height="306">
 </p>
-## Author
+### Author
 <a href="https://github.com/mewhuan">Dong Li</a>
 </body>
 </html>
