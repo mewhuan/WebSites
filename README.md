@@ -4,7 +4,7 @@ It's a social network website for users to share concert information. Users can 
 <body>
 <p>
 <img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub1.gif" width="544" height="306"></br>
-
+In the index page shows upcoming concerts, active users and top artists with their concerts. 
 </p>
 <p>
 <img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub2.gif" width="544" height="306"></br>
