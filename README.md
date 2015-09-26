@@ -25,11 +25,11 @@ User can manage their account to modify profile, change password or upgrade, a n
 </p>
 <p>
 <img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub4.gif" width="544" height="306"></br>
-
+User can manage their recommand list.
 </p>
 <p>
 <img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub5.gif" width="544" height="306"></br>
-
+User can browse 'What's new' in three sides. Contents will change if a user follow/unfollow another user, or like/dislike a muisc genre.
 </p>
 <p>
 <img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub6.gif" width="544" height="306"></br>
