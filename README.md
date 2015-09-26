@@ -3,9 +3,9 @@ It's a social network website for users to share concert information. Users can 
 In negative bar:<br/>
 1. To index page.<br/>
 2. What's new: show news in three sides<br/>
-&nbsp;&nbsp; Artist liked: show news from the artist I followed.<br/>
-&nbsp;&nbsp; User recommanded: show news from other users' recommand list whom I followed.<br/>
-&nbsp;&nbsp; User followed: show new from other users I followed.<br/>
+&nbsp;&nbsp;&nbsp; Artist liked: show news from the artist I followed.<br/>
+&nbsp;&nbsp;&nbsp; User recommanded: show news from other users' recommand list whom I followed.<br/>
+&nbsp;&nbsp;&nbsp; User followed: show new from other users I followed.<br/>
 3. My activity: show my activity.<br/>
 4. My List: show my recommand list.<br/>
 5. Account: To account page.<br/>
