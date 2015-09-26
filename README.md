@@ -13,32 +13,32 @@ In negative bar:<br/>
 5. Account: To account page.<br/>
 <body>
 <p>
-In the index page shows upcoming concerts, active users and top artists with their concerts. 
-<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub1.gif" width="544" height="306"></br>
+In the index page shows upcoming concerts, active users and top artists with their concerts. </br>
+<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub1.gif" width="544" height="306">
 </p>
 <p>
-User can leave comments and ratings to a concert, and follow other users.
-<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub2.gif" width="544" height="306"></br>
+User can leave comments and ratings to a concert, and follow other users.</br>
+<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub2.gif" width="544" height="306">
 </p>
 <p>
-User can manage their account to modify profile, change password or upgrade, a normal user can upgrade himself/herself to artist if he/she dicided to do that. In addition, search feature provided, user can search for the concerts they like. User can add an upcoming concert to their plan list, or add a concert to their recommend list.
-<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub3.gif" width="544" height="306"></br>
+User can manage their account to modify profile, change password or upgrade, a normal user can upgrade himself/herself to artist if he/she dicided to do that. In addition, search feature provided, user can search for the concerts they like. User can add an upcoming concert to their plan list, or add a concert to their recommend list.</br>
+<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub3.gif" width="544" height="306">
 </p>
 <p>
 User can manage their recommend list.</br>
 <img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub4.gif" width="544" height="306">
 </p>
 <p>
-User can browse 'What's new' in three sides. Contents will change if a user follow/unfollow another user, or like/dislike a muisc genre.
-<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub5.gif" width="544" height="306"></br>
+User can browse 'What's new' in three sides. Contents will change if a user follow/unfollow another user, or like/dislike a muisc genre.</br>
+<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub5.gif" width="544" height="306">
 </p>
 <p>
-In my activity page shows the concerts he/she posted, the other users he/she followed, a list of users they may be interested in and the music genre he/she likes. User can manage their followees and music genres. In addtion, user can post new concert here. 
-<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub6.gif" width="544" height="306"></br>
+In my activity page shows the concerts he/she posted, the other users he/she followed, a list of users they may be interested in and the music genre he/she likes. User can manage their followees and music genres. In addtion, user can post new concert here. </br>
+<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub6.gif" width="544" height="306">
 </p>
 <p>
-Log out.
-<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub7.gif" width="544" height="306"></br>
+Log out.</br>
+<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub7.gif" width="544" height="306">
 </p>
 ### Author
 <a href="https://github.com/mewhuan">Dong Li</a>
