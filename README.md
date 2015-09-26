@@ -1,14 +1,14 @@
 # WebSites
 It's a social network website for users to share concert information. Users can sign up as normal users or artists. <br/>
-In negative bar:
-1. To index page.
-2. What's new: show news in three sides
-   Artist liked: show news from the artist I followed.
-   User recommanded: show news from other users' recommand list whom I followed.
-   User followed: show new from other users I followed.
-3. My activity: show my activity.
-4. My List: show my recommand list.
-5. Account: To account page.
+In negative bar:<br/>
+1. To index page.<br/>
+2. What's new: show news in three sides<br/>
+   Artist liked: show news from the artist I followed.<br/>
+   User recommanded: show news from other users' recommand list whom I followed.<br/>
+   User followed: show new from other users I followed.<br/>
+3. My activity: show my activity.<br/>
+4. My List: show my recommand list.<br/>
+5. Account: To account page.<br/>
 <html>
 <body>
 <p>
