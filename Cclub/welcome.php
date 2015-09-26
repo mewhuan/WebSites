@@ -88,6 +88,12 @@
               <section class="vbox">
                 <section class="scrollable padder-lg w-f-md" id="bjax-target">
                   <a href="#" class="pull-right text-muted m-t-lg" data-toggle="class:fa-spin" ><i class="icon-refresh i-lg  inline" id="refresh"></i></a>
+                  <?php 
+                    $stmt = $mysqli->prepare("select c.cname, c.ctime, c.price, c.image, u.namess from users u, concert c where u.username=c.actor and c.ctime>now() order by c.ctime");
+                    $stmt->execute();
+                    $stmt->bind_result($cname,$ctime,$price,$image,$namess);
+                    $number = 0;
+                    if($stmt->num_rows>0){ ?>
                   <h2 class="font-thin m-b">Upcoming Concert <span class="musicbar animate inline m-l-sm" style="width:20px;height:20px">
                     <span class="bar1 a1 bg-primary lter"></span>
                     <span class="bar2 a2 bg-info lt"></span>
@@ -95,8 +101,46 @@
                     <span class="bar4 a4 bg-warning dk"></span>
                     <span class="bar5 a5 bg-danger dker"></span>
                   </span></h2>
-                  <?php 
-                    $stmt = $mysqli->prepare("select c.cname, c.ctime, c.price, c.image, u.namess from users u, concert c where u.username=c.actor and c.ctime>now() order by c.ctime");
+                    <?php
+                    }
+                    else{ ?>
+                    <h2 class="font-thin m-b">No upcoming Concert, here are some old concerts <span class="musicbar animate inline m-l-sm" style="width:20px;height:20px">
+                    <span class="bar1 a1 bg-primary lter"></span>
+                    <span class="bar2 a2 bg-info lt"></span>
+                    <span class="bar3 a3 bg-success"></span>
+                    <span class="bar4 a4 bg-warning dk"></span>
+                    <span class="bar5 a5 bg-danger dker"></span>
+                  </span></h2>
+                    <?php }
+                    while($stmt->fetch()){
+                      $number = $number + 1;
+                      if($number<13){
+                      ?>
+                  <div class="row row-sm">
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                      <div class="item">
+                        <div class="pos-rlt">
+                    
+                          <?php
+                          if(!empty($image)){
+                          echo '<img src="'.$image.'"  class="r r-2x img-full">';
+                        }
+                        else{
+                          echo '<img src="./images/p1.jpg"  class="r r-2x img-full">';
+                        }
+                          ?>
+                        </div>
+                        <div class="padder-v">
+                          <a href="#" class="text-ellipsis"><?php echo $cname; ?></a>
+                          <a href="#" class="text-ellipsis text-xs text-muted"><?php echo $namess; ?></a>
+                          <a href="#" class="text-ellipsis text-xs text-muted"><?php echo $price; ?> <font color="red">dollars</font></a>
+                          <a href="#" class="text-ellipsis text-xs text-muted"><?php echo $ctime; ?></a>
+                        </div>
+                      </div>
+                    </div>
+                    <?php } }
+                    if($number==0){
+                    $stmt = $mysqli->prepare("select c.cname, c.ctime, c.price, c.image, u.namess from users u, concert c where u.username=c.actor order by c.ctime");
                     $stmt->execute();
                     $stmt->bind_result($cname,$ctime,$price,$image,$namess);
                     $number = 0;
@@ -127,8 +171,8 @@
                       </div>
                     </div>
                     <?php } }
+                    }
                     $stmt->close(); ?>
-                  
                 </section>
                 <footer class="footer bg-dark">
                   <div style="text-align:center;width:100%;">
