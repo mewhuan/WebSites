@@ -25,8 +25,8 @@ User can manage their account to modify profile, change password or upgrade, a n
 <img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub3.gif" width="544" height="306"></br>
 </p>
 <p>
-User can manage their recommend list.
-<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub4.gif" width="544" height="306"></br>
+User can manage their recommend list.</br>
+<img src="https://raw.githubusercontent.com/mewhuan/screenShots/master/cclub4.gif" width="544" height="306">
 </p>
 <p>
 User can browse 'What's new' in three sides. Contents will change if a user follow/unfollow another user, or like/dislike a muisc genre.
