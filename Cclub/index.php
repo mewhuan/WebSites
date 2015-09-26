@@ -218,7 +218,7 @@
                           ?>
                         </div>
                         <div class="padder-v">
-                          <a href="#" class="text-ellipsis"><?php echo $cname; ?></a>
+                          <a href="#" onclick=window.location.href="concertinfo.php?cid=<?php echo $cid;?>" class="text-ellipsis"><?php echo $cname; ?></a>
                           <a href="#" onclick=window.location.href="userinfo.php?user=<?php echo $user;?>" class="text-ellipsis text-xs text-muted"><?php echo $namess; ?></a>
                           <a href="#" class="text-ellipsis text-xs text-muted"><?php echo $price; ?> <font color="red">dollars</font></a>
                           <a href="#" class="text-ellipsis text-xs text-muted"><?php echo $ctime; ?></a>
